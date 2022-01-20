@@ -1,0 +1,26 @@
+
+.tableemp
+{ 
+    width: 500px;
+    height: 500px;
+   /* display: flex; */
+   position: relative;
+   left: auto;
+   justify-content: center;
+   align-items: center;
+}
+table
+{
+    border:  2px solid black;
+    width: 600px;
+    height: 400px;
+}
+th{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+td{
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
