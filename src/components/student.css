@@ -1,0 +1,21 @@
+.student{
+    border: 2px solid red;
+    height: 350px;
+    width: 250px;
+    border-radius: 20px;
+    /* box-shadow: 3px 3px 3px blue; */
+    margin: 30px;
+}
+.student:hover{
+    box-shadow: 3px 3px 3px blue;
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+.student img{
+    height: 200px;
+    width: 100%;
+}
+h1, h3{
+    text-align: center;
+    color: green;
+}
