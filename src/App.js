@@ -4,6 +4,7 @@
 import './App.css';
 import React from 'react'; 
 import ObjectBinding from './ObjectBinding';
+import ObjectBindingFunction from './ObjectBindingFunction';
 // import ReactState from './components/ReactState';
 // import ReactStateFunc from './components/ReactStateFunc';
 // import ReactEvents from './ReactEvents';
@@ -59,8 +60,10 @@ function App() {
    {/* <ReactStateFunc/> */}
 
    {/* Object Binding */}
-   <ObjectBinding/>
+   {/* <ObjectBinding/> */}
 
+   {/* object binding using function */}
+   <ObjectBindingFunction/>
      </div>
   );
 
