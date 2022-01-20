@@ -3,6 +3,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import React from 'react'; 
+import ObjectBinding from './ObjectBinding';
 // import ReactState from './components/ReactState';
 // import ReactStateFunc from './components/ReactStateFunc';
 // import ReactEvents from './ReactEvents';
@@ -57,6 +58,8 @@ function App() {
    {/* using function */}
    {/* <ReactStateFunc/> */}
 
+   {/* Object Binding */}
+   <ObjectBinding/>
 
      </div>
   );
