@@ -3,8 +3,9 @@
 // import logo from './logo.svg';
 import './App.css';
 import React from 'react'; 
-import ObjectBinding from './ObjectBinding';
-import ObjectBindingFunction from './ObjectBindingFunction';
+// import ObjectBinding from './ObjectBinding';
+// import ObjectBindingFunction from './ObjectBindingFunction';
+import Forms from './Forms';
 // import ReactState from './components/ReactState';
 // import ReactStateFunc from './components/ReactStateFunc';
 // import ReactEvents from './ReactEvents';
@@ -63,7 +64,16 @@ function App() {
    {/* <ObjectBinding/> */}
 
    {/* object binding using function */}
-   <ObjectBindingFunction/>
+   {/* <ObjectBindingFunction/> */}
+
+
+   {/* Forms */}
+   <Forms/>
+
+
+
+
+
      </div>
   );
 
