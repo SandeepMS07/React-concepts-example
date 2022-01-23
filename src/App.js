@@ -74,7 +74,7 @@ function App() {
 
    {/* Parent And Child Component Example */}
    <ClickCounterEx/>
-   <HoverCounter/>
+   {/* <HoverCounter/> */}
 
 
      </div>
