@@ -3,9 +3,11 @@
 // import logo from './logo.svg';
 import './App.css';
 import React from 'react'; 
+import ClickCounterEx from './ChildAndParentComponentEX/ClickCounterEx';
+import HoverCounter from './ChildAndParentComponentEX/HoverCounter';
 // import ObjectBinding from './ObjectBinding';
 // import ObjectBindingFunction from './ObjectBindingFunction';
-import Forms from './Forms';
+// import Forms from './Forms';
 // import ReactState from './components/ReactState';
 // import ReactStateFunc from './components/ReactStateFunc';
 // import ReactEvents from './ReactEvents';
@@ -68,10 +70,11 @@ function App() {
 
 
    {/* Forms */}
-   <Forms/>
+   {/* <Forms/> */}
 
-
-
+   {/* Parent And Child Component Example */}
+   <ClickCounterEx/>
+   <HoverCounter/>
 
 
      </div>
