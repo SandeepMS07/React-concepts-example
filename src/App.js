@@ -3,8 +3,9 @@
 // import logo from './logo.svg';
 import './App.css';
 import React from 'react'; 
-import ClickCounterEx from './ChildAndParentComponentEX/ClickCounterEx';
-import HoverCounter from './ChildAndParentComponentEX/HoverCounter';
+// import ClickCounterEx from './ChildAndParentComponentEX/ClickCounterEx';
+import ClickCounterPureComponent from './ChildAndParentComponentEX/ClickCounterPureComponent';
+// import HoverCounter from './ChildAndParentComponentEX/HoverCounter';
 // import ObjectBinding from './ObjectBinding';
 // import ObjectBindingFunction from './ObjectBindingFunction';
 // import Forms from './Forms';
@@ -73,7 +74,10 @@ function App() {
    {/* <Forms/> */}
 
    {/* Parent And Child Component Example */}
-   <ClickCounterEx/>
+   {/* Impure And Pure Component */}
+   {/* <ClickCounterEx/> */}
+   <ClickCounterPureComponent/>
+
    {/* <HoverCounter/> */}
 
 

@@ -6,19 +6,26 @@ export default class ClickCounterEx extends Component {
       super(props)
     
       this.state = {
-         count : 0
+         myName : " "
       }
     }
     
-    UpdateCount = () =>
+    UpdateName = () =>
     {
-        this.setState({count : this.state.count+1})
+        this.setState({myName:"Sandeep M S"})
     }
+
+    UpdateName2 = () =>
+    {
+        this.setState({myName:"Sandy"})
+    }
+
   render() {
-      console.log("Hello I AM SANDEEP M S");
+      console.log("Hello I am Impure Component");
     return <div> 
-        <h1>Counter : {this.state.count}</h1>
-        <button onClick={this.UpdateCount}>Click</button>
+        <h1>Name : {this.state.myName}</h1>
+        <button onClick={this.UpdateName}>Sandeep M S</button>
+        <button onClick={this.UpdateName2}>Sandy</button>
         {/* <SimpleCounter/> */}
     </div>;
   }
